@@ -8,7 +8,7 @@ const USER_TOKEN = "java-mastery-api-user-token";
 const ADMIN_TOKEN = "java-mastery-api-admin-token";
 const USER_VALUE = "java-mastery-api-user";
 const ADMIN_VALUE = "java-mastery-api-admin";
-const API = "/api";
+const API = "https://java-mastery-89vp.onrender.com/api";
 
 async function request<T>(path: string, init: RequestInit = {}, admin = false): Promise<T> {
   const token = sessionStorage.getItem(admin ? ADMIN_TOKEN : USER_TOKEN);
