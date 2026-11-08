@@ -28,7 +28,7 @@ public class ApiController {
 
     // Admin credentials
     private final String adminId = "Charan";
-    private final String adminPassword = "REPLACE_WITH_YOUR_PASSWORD";
+    private final String adminPassword = "Charan7784";
 
     private final SecureRandom random = new SecureRandom();
     private final Map<String, String> sessions = new ConcurrentHashMap<>();
